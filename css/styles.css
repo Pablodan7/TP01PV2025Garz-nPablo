@@ -1,0 +1,37 @@
+/* Estilo para el encabezado */
+.header {
+    color: white;
+    background-color: #4CAF50; /* Verde */
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para los párrafos */
+.body-text {
+    color: #333;
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+    margin: 20px;
+}
+
+/* Estilo para los enlaces de navegación */
+.nav-link {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* Hover para los enlaces */
+.nav-link:hover {
+    color: darkgreen;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
