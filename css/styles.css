@@ -1,37 +1,102 @@
-/* Estilo para el encabezado */
-.header {
-    color: white;
-    background-color: #4CAF50; /* Verde */
+/* Global Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f9; /* Fondo claro para mayor legibilidad */
+    color: #333; /* Texto principal en color oscuro */
+}
+
+/* Header Styles */
+header {
+    background-color: #006d77; /* Verde azulado suave */
+    color: #ffffff; /* Texto blanco para el encabezado */
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    font-family: Arial, sans-serif;
 }
 
-/* Estilo para los párrafos */
-.body-text {
-    color: #333;
-    font-size: 16px;
-    font-family: 'Verdana', sans-serif;
-    margin: 20px;
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
-/* Estilo para los enlaces de navegación */
-.nav-link {
+nav a {
+    color: #ffffff; /* Enlaces en blanco */
     text-decoration: none;
-    color: #4CAF50;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+    line-height: 1.6; /* Espaciado agradable entre líneas */
+}
+
+h2 {
+    color: #006d77; /* Verde azulado para los títulos */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+    background-color: #ffffff; /* Fondo blanco para contrastar */
+    border: 2px solid #83c5be; /* Borde verde claro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    max-width: 600px;
+    margin: 0 auto; /* Centrado */
+}
+
+label {
+    display: block;
+    color: #006d77;
     font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #006d77; /* Botón verde azulado */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f6b; /* Color más oscuro al pasar el ratón */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #006d77;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer nav a {
+    color: #ffffff; /* Enlaces en blanco */
+    text-decoration: none;
     margin: 0 10px;
 }
 
-/* Hover para los enlaces */
-.nav-link:hover {
-    color: darkgreen;
-}
-
-/* Estilo para el pie de página */
-footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    border-top: 1px solid #ccc;
+footer nav a:hover {
+    text-decoration: underline; /* Subrayado para interactividad */
 }
